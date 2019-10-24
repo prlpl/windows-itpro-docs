@@ -26,7 +26,7 @@ Applies to:
 - Windows 10 Team Edition, version 1703 for Surface Hub
 - Windows Server 2019
 - Windows Server 2016
-- Windows Analytics
+- Desktop Analytics
 
 This topic provides IT Decision Makers with a basic understanding of the relationship between users in an organization and Microsoft in the context of the GDPR (General Data Protection Regulation). You will also learn what role an IT organization plays for that relationship.
 
@@ -117,14 +117,14 @@ Diagnostic data is categorized into the levels "Security", "Basic", "Enhanced", 
 
 ### Windows services where Microsoft is the processor under the GDPR
 
-Most Windows 10 services are controller services in terms of the GDPR – for both Windows functional data and Windows diagnostic data. But there are a few Windows services where Microsoft is a processor for functional data under the GDPR, such as [Windows Analytics](https://www.microsoft.com/windowsforbusiness/windows-analytics) and [Windows Defender Advanced Threat Protection (ATP)](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp).
+Most Windows 10 services are controller services in terms of the GDPR – for both Windows functional data and Windows diagnostic data. But there are a few Windows services where Microsoft is a processor for functional data under the GDPR, such as [Desktop Analytics](https://www.microsoft.com/windowsforbusiness/windows-analytics) and [Windows Defender Advanced Threat Protection (ATP)](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp).
 
 >[!NOTE]
->Both Windows Analytics and Windows Defender ATP are subscription services for organizations. Some functionality requires a certain license (please see [Compare Windows 10 editions](https://www.microsoft.com/windowsforbusiness/compare)).
+>Both Desktop Analytics and Windows Defender ATP are subscription services for organizations. Some functionality requires a certain license (please see [Compare Windows 10 editions](https://www.microsoft.com/windowsforbusiness/compare)).
 
-#### Windows Analytics
+#### Desktop Analytics
 
-[Windows Analytics](https://www.microsoft.com/windowsforbusiness/windows-analytics) is a service that provides rich, actionable information for helping organizations to gain deep insights into the operational efficiency and health of the Windows devices in their environment. It uses Windows diagnostic data from devices enrolled by the IT organization of an enterprise into the Windows Analytics service.
+[Desktop Analytics](https://www.microsoft.com/windowsforbusiness/windows-analytics) is a service that provides rich, actionable information for helping organizations to gain deep insights into the operational efficiency and health of the Windows devices in their environment. It uses Windows diagnostic data from devices enrolled by the IT organization of an enterprise into the Windows Analytics service.
 
 Windows [transmits Windows diagnostic data](enhanced-diagnostic-data-windows-analytics-events-and-fields.md) to Microsoft datacenters, where that data is analyzed and stored. With Windows Analytics, the IT organization can then view the analyzed data to detect and fix issues or to improve their processes for upgrading to Windows 10.
 
